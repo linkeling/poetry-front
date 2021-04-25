@@ -1,0 +1,179 @@
+html, body, #app  {
+    height: 100%;
+}
+/* 表格错位问题 */
+body .el-table th.gutter {
+    display: table-cell !important;
+}
+
+
+body .el-table colgroup.gutter {
+    display: table-cell !important;
+}
+
+.app-container{
+    width: 100%;
+}
+
+.search-left-item{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.search-left-item label{
+    margin: 0 8px;
+    font-size: 13px;
+    color: #606266;
+}
+
+.search-left-item el-select{
+    width: 160px;
+}
+
+.search-right-item{
+    margin-top: 10px;
+    float: right;
+    margin-left: 5px;
+}
+
+.search-btn {
+    padding: 11px 13px;
+}
+/* 弹窗样式 */
+.el-dialog__header {
+    border-bottom: 1px solid #ddd;
+}
+
+.el-dialog__footer {
+    border-top: 1px solid #ddd;
+}
+.el-dialog--center .el-dialog__body {
+    padding: 0px;
+}
+/* 表单label样式 */
+.el-form-item__label {
+    font-size: 13px;
+}
+/* 单选框样式 */
+.el-radio__label {
+    font-size: 13px;
+}
+/* 多选框样式 */
+.el-checkbox__label {
+    font-size: 13px;
+}
+/* 文本框禁用框样式 */
+.el-input.is-disabled .el-input__inner {
+    color: #606266;
+}
+.el-textarea.is-disabled .el-textarea__inner {
+    color: #606266;
+}
+/* 单选框禁用样式 */
+.el-radio__input.is-disabled+span.el-radio__label {
+    color: #606266;
+}
+.el-radio__input.is-checked+.el-radio__label {
+    color: #409EFF !important;
+}
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #409EFF !important;
+    background: #409EFF  !important;
+}
+/* 多选框禁用样式 */
+.el-checkbox__input.is-disabled+span.el-checkbox__label {
+    color: #606266;
+}
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+    background-color: #409EFF;
+    border-color: #409EFF;
+}
+/* 公共样式 */
+.table_container {
+    margin-top: 15px;
+}
+.pagination_container {
+    float: right;
+    margin-top: 15px;
+}
+.form_block {
+    background-color: #f6f6f6;
+    padding: 15px 10px 0 10px;
+    margin: 10px;
+}
+.form_block_title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.form_height, .dialog_height {
+    height: 65vh;
+    overflow: auto;
+}
+
+.table-container{
+    margin-top: 10px;
+}
+.searchBtn{
+    margin-left: 10px;
+}
+.headRight{
+    float: right;
+}
+.el-main{
+    padding: 5px;
+}
+
+.el-main .content-page{
+    /* position:fixed;
+    right: 20px;
+    bottom:10px; */
+    float: right;
+    margin-top: 4px;
+}
+.changeRow .el-form-item__content{
+    float: left;
+    margin-left: 50px !important;
+}
+/* 表格边框样式 */
+.el-table th{
+    background-color: #daefff;
+}
+
+.el-table td, .el-table th.is-leaf,.el-table--border, .el-table--group{
+    border-color: #93defe;
+}
+.el-table--border::after, .el-table--group::after, .el-table::before, .el-table__fixed-right::before, .el-table__fixed::before {
+    background-color: #93defe; 
+}
+
+.el-cascader-node .el-radio {
+    color: #606266;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.el-cascader-node__label{
+    width: 200px ;
+}
+.el-cascader-node{
+    padding: 0 30px 0 1px;
+}
+.el-tabs--border-card>.el-tabs__content {
+    padding: 0px;
+}
+.el-card__body {
+    padding: 10px;
+}
+.el-icon-arrow-left{
+    font-size:16px;
+}
+.el-icon-arrow-right{
+    font-size:16px;
+}
+
+.dialogInfo input{
+    max-width: 200px;
+}
